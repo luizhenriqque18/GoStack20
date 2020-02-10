@@ -1,0 +1,134 @@
+{
+    "version": 6,
+    "entities": [
+        {
+            "entity": {
+                "type": "Project",
+                "id": "f6fbdf80-4dfd-4d3e-b703-2ac41caa6cfd",
+                "name": "Gobarber"
+            },
+            "children": [
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "requestBody": true,
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                            "name": "POST"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text",
+                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:3333",
+                            "path": "/users"
+                        },
+                        "id": "800f946d-6678-426c-bd40-bbd522dbee26",
+                        "name": "Create User",
+                        "headers": [
+                            {
+                                "enabled": true,
+                                "name": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "requestBody": true,
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                            "name": "POST"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text",
+                            "textBody": "{\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:3333",
+                            "path": "/sessions"
+                        },
+                        "id": "2572972a-4c04-45a2-99c1-b82d2b790df9",
+                        "name": "Sessions User",
+                        "headers": [
+                            {
+                                "enabled": true,
+                                "name": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "requestBody": true,
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.4",
+                            "name": "PUT"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text",
+                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:3333",
+                            "path": "/users"
+                        },
+                        "id": "ede77bc2-ea0c-46bf-90a1-97e99edfe8df",
+                        "name": "Update User",
+                        "headers": [
+                            {
+                                "enabled": true,
+                                "name": "Authorization",
+                                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTgxMzY4MDU1LCJleHAiOjE1ODE5NzI4NTV9.LXDdI83Nqxnj3OAnuAsbhe6LRL2HcAStgR0dUPZ59zE"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
