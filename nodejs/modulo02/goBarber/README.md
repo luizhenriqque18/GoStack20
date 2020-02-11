@@ -17,3 +17,4 @@ sequelize db:migrate
 
 sequelize db:migrate:undo
 
+https://www.md5online.org/md5-encrypt.html
