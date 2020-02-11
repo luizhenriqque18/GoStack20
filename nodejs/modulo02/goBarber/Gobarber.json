@@ -23,7 +23,7 @@
                                 "items": []
                             },
                             "bodyType": "Text",
-                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque15@gmail.com\",\n  \"password\": \"12345678\"\n}"
                         },
                         "uri": {
                             "query": {
@@ -63,7 +63,7 @@
                                 "items": []
                             },
                             "bodyType": "Text",
-                            "textBody": "{\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                            "textBody": "{\n  \"email\": \"luizhenriqque15@gmail.com\",\n  \"password\": \"abcdefg\"\n}"
                         },
                         "uri": {
                             "query": {
@@ -103,7 +103,7 @@
                                 "items": []
                             },
                             "bodyType": "Text",
-                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque19@gmail.com\",\n  \"password\": \"12345\"\n}"
+                            "textBody": "{\n  \"name\": \"Luiz Henrique Oliveira de Souza\",\n  \"email\": \"luizhenriqque15@gmail.com\",\n  \"oldPassword\": \"87654321\",\n  \"password\": \"abcdefg\",\n  \"confirmPassword\": \"abcdefg\"\n}"
                         },
                         "uri": {
                             "query": {
@@ -123,7 +123,12 @@
                             {
                                 "enabled": true,
                                 "name": "Authorization",
-                                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTgxMzY4MDU1LCJleHAiOjE1ODE5NzI4NTV9.LXDdI83Nqxnj3OAnuAsbhe6LRL2HcAStgR0dUPZ59zE"
+                                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTU4MTQzMTIwOCwiZXhwIjoxNTgyMDM2MDA4fQ.nb2eUAS2ptsyY6nsN25fxhX0aRfl5ppOi3rEfUijuag"
+                            },
+                            {
+                                "enabled": true,
+                                "name": "Content-Type",
+                                "value": "application/json"
                             }
                         ]
                     }
