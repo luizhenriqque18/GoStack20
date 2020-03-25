@@ -1,0 +1,43 @@
+.photo-content {
+    background-color: white;
+    border-radius: 5px solid;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    width: 800px;
+}
+
+.photo-content hr {
+    border-color:rgba(181, 176, 176, 0.2);
+}
+
+.post {
+    padding: 20px;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil, img {
+    border-radius: 25px;
+}
+
+.perfil-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.perfil-info h1, p {
+    margin: 0px;
+}
+
+.perfil-info p {
+    font-size: 10px;
+    color: grey;
+}
+
+.perfil-info h1 {
+    font-size: 20px;
+    color: #403e3e;
+}
